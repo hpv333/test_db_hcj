@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB with CSV GitHub Pages Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>IndexedDB with CSV GitHub Pages Project</h1>
+    <button id="initData">Initialize Data from CSV</button>
+    <form id="addForm">
+        <input type="text" id="nameInput" placeholder="Enter name" required>
+        <input type="number" id="ageInput" placeholder="Enter age" required>
+        <button type="submit">Add Person</button>
+    </form>
+    <button id="loadData">Load Data</button>
+    <div id="content"></div>
+    
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
